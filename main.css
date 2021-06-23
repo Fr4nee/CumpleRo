@@ -10845,6 +10845,20 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tempBG {
+  background: url(/img/fondo4.png);
+}
+
+.tempBGHead {
+  background-color: rgba(0, 0, 0, 0.186);
+}
+
 #resultTempCOR {
   position: relative;
 }

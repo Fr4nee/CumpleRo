@@ -19,7 +19,3 @@ function obtenerEntradaTemp() {
             document.getElementById("errorTemp").style.visibility = "visible";
         }
 }
-
-
-
-
