@@ -10844,4 +10844,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+#texto {
+  transition: 0.5;
 }/*# sourceMappingURL=main.css.map */
