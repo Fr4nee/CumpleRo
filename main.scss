@@ -11,15 +11,18 @@
 
 
 
-
-
-.formPersona {
-    margin: 5em;
-    width: 500px;
+#resultTempCOR {
+    position: relative;
 }
-    #correcto {
-        position: fixed;
+    #correctTemp {
+        position: absolute;
+        width: 100%;
     }
-    #error {
-        position: fixed;
+
+#resultTempERR {
+    position: relative;
+}
+    #errorTemp {
+        position: absolute;   
+        width: 100%; 
     }
