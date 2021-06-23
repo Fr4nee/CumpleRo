@@ -10861,4 +10861,11 @@ textarea.form-control-lg {
 #errorTemp {
   position: absolute;
   width: 100%;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
