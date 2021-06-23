@@ -10845,6 +10845,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#texto {
-  transition: 0.5;
+.form {
+  margin: 5em;
+  width: 500px;
+}
+
+#correcto {
+  position: fixed;
+}
+
+#error {
+  position: fixed;
 }/*# sourceMappingURL=main.css.map */

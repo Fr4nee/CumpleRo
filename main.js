@@ -1,15 +1,16 @@
+document.getElementById("resultados").style.visibility = "hidden";
+document.getElementById("correcto").style.visibility = "hidden";
+document.getElementById("error").style.visibility = "hidden";
+
 function obtenerEntrada() {
-
-    var entrada = document.getElementById("form").value;
-
-    let correct = "Correcto!"
-    let error = "Error!";
+    var entry = document.getElementById("form").value; 
     
-    if (entrada === "mariadelrosario") {
-        return document.getElementById("texto").innerHTML = correct;
-        
+    if (entry == "mariadelrosario") {
+        document.getElementById("resultados").style.visibility = "visible";
+        document.getElementById("correcto").style.visibility = "visible";
     } else {
-        return document.getElementById("texto").innerHTML = error;
+        document.getElementById("resultados").style.visibility = "visible";
+        document.getElementById("error").style.visibility = "visible";
     }
 }
 
