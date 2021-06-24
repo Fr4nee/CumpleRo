@@ -10859,7 +10859,7 @@ body {
   display: flex;
   height: 100% !important;
   flex-direction: column;
-  background: url(/assets/fondo4.png);
+  background: url(assets/fondo4.png);
 }
 
 .tempBGHead {
