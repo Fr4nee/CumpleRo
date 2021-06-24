@@ -13,10 +13,38 @@
     background-color: rgba(0, 0, 0, 0.186);
 }
 
+.main  {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-evenly;   
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .izq {
+        width: 100% !important;
+    }
+    .der {
+        width: 100% !important;
+    }
+    video {
+        width: 100% !important;
+    }
+}
 
 
 
 
+
+video {
+    margin: 10px;
+    margin-right: 20px;
+
+}
 
 
 
@@ -50,6 +78,6 @@
 }
 
 .roimg {
-    width: 15%;   
+    width: 4em;   
     border-radius: 50%;
 }
