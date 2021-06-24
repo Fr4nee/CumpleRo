@@ -10862,11 +10862,22 @@ textarea.form-control-lg {
 .main {
   margin: 0 !important;
   padding: 0 !important;
+  padding-top: 2em !important;
   display: flex;
   justify-content: space-evenly;
 }
 
-@media (max-width: 600px) {
+.izq {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.der {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
   .main {
     flex-direction: column;
     width: 100% !important;
@@ -10884,11 +10895,6 @@ textarea.form-control-lg {
     width: 100% !important;
   }
 }
-video {
-  margin: 10px;
-  margin-right: 20px;
-}
-
 #resultTempCOR {
   position: relative;
 }
