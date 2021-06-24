@@ -1,4 +1,4 @@
-@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import url(/node_modules/bootstrap/scss/bootstrap.scss);
 
 // HTML
 * {
@@ -11,98 +11,65 @@ html {
 }
 body {
     display: flex;
-    height: 100% !important;
+    height: 100vh !important;
     flex-direction: column;
-    background: url(fondo4.png);
+    background: url(/assets/fondo5.png);
+    background-position: center;
+    background-size:cover; 
 }
 
-
-// HEADER
-.tempBGHead {
+// HERADER 
+header {
+    margin-bottom: 1em;
+    padding-bottom: 1.3em;
+    border-top-left-radius: 0px 0px !important;
+    border-top-right-radius: 0px 0px !important;
     background-color: rgba(0, 0, 0, 0.186);
+    border-radius: 150px 150px;
+}
+h1 {
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    width: 100%;
+    display: block;
 }
 
-
-// CONTENIDO
-.main  {
-    margin: 0 !important;
-    padding: 0 !important;
-    padding-top: 2em !important;
-    display: flex;
-    justify-content: space-evenly; 
-    height: 100% !important;  
+// MAIN
+.colu {
+    margin-bottom: 15px;
 }
-.izq {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.carta {
+    overflow: hidden; 
 }
-.der {
-    margin-top: 5px;
-    margin-bottom: 5px;
+.cartatxt {
+    border-top-left-radius: 0px 0px !important;
+    border-top-right-radius: 0px 0px !important;
+    background-color: rgba(0, 0, 0, 0.186) !important;
+    border-radius: 20px 20px;
+    height: 13%;
 }
-#resultTempCOR {
-    position: relative;
+img {   
+	transform: scale(1);
+	transition: .3s ease-in-out;
 }
-    #correctTemp {
-        position: absolute;
-        margin: 1px; 
-        width: 100%;
-    }
-#resultTempERR {
-    position: relative;
+img:hover  {
+	transform: scale(1.3);
 }
-    #errorTemp {
-        position: absolute; 
-        margin: 1px;  
-        width: 100%; 
-    }
-        .error {
-            margin-bottom: 7 !important;
-        }
-
 
 // FOOTER
 #footer {
     width: 100%;
-    color: white;
+    color: rgb(0, 0, 0);
 }
     .roimg {
         width: 4em;   
         border-radius: 50%;
     }
 
-// MEDIA QUERYS - CEL
 
-@media (max-width: 800px,) {
-    .main {
-        flex-direction: column;
-        width: 100% !important;
-        padding-top: 2% !important;      
-        justify-content: flex-start; 
-        height: 100% !important;
-    }
-        .izq {
-            width: 100% !important;
-        }
-        .der {
-            width: 100% !important;
-            padding-top: 3%;
-        }
-        video {
-            width: 100% !important;
-            padding-right: 5px;
-            padding-left: 5px;
-        }
-    #footer {
-        position: sticky !important;
-        bottom: 0;
-        padding-bottom: 0 !important;
-        z-index: -1;
-        font-size: 12px !important;
-    }
-}
-@media (max-height: 600px,) {
-    #footer {
-        display: none;
-    }
-}
+
+
+
+
+
+ 
