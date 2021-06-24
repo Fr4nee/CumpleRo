@@ -10941,8 +10941,14 @@ body {
   }
 
   #footer {
-    position: relative;
+    position: sticky !important;
     bottom: 0;
     padding-bottom: 1 !important;
+    z-index: -1;
+  }
+}
+@media (max-height: 700px) {
+  #footer {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
