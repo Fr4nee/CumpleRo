@@ -10891,6 +10891,7 @@ body {
 
 #correctTemp {
   position: absolute;
+  margin: 1px;
   width: 100%;
 }
 
@@ -10900,6 +10901,7 @@ body {
 
 #errorTemp {
   position: absolute;
+  margin: 1px;
   width: 100%;
 }
 
@@ -10923,6 +10925,7 @@ body {
     width: 100% !important;
     padding-top: 2% !important;
     justify-content: flex-start;
+    height: 100% !important;
   }
 
   .izq {
@@ -10943,8 +10946,9 @@ body {
   #footer {
     position: sticky !important;
     bottom: 0;
-    padding-bottom: 1 !important;
+    padding-bottom: 0 !important;
     z-index: -1;
+    font-size: 12px !important;
   }
 }
 @media (max-height: 700px) {
