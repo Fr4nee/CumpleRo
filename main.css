@@ -10882,4 +10882,9 @@ textarea.form-control-lg {
   bottom: 0;
   width: 100%;
   color: white;
+}
+
+.roimg {
+  width: 15%;
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
