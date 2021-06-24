@@ -10845,6 +10845,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   height: 100% !important;
 }
@@ -10853,15 +10859,6 @@ body {
   display: flex;
   height: 100% !important;
   flex-direction: column;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.tempBG {
   background: url(fondo4.png);
 }
 
@@ -10904,6 +10901,8 @@ body {
 
   video {
     width: 100% !important;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 }
 #resultTempCOR {
@@ -10911,7 +10910,7 @@ body {
 }
 
 #correctTemp {
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -10920,7 +10919,7 @@ body {
 }
 
 #errorTemp {
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
