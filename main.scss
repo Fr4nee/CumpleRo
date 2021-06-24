@@ -9,17 +9,20 @@
 html {
     height: 100% !important;
 }
-
 body {
     display: flex;
     height: 100% !important;
     flex-direction: column;
     background: url(fondo4.png);
 }
+
+
 // HEADER
 .tempBGHead {
     background-color: rgba(0, 0, 0, 0.186);
 }
+
+
 // CONTENIDO
 .main  {
     margin: 0 !important;
@@ -37,11 +40,11 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
 @media (max-width: 800px) {
     .main {
         flex-direction: column;
-        width: 100% !important;
+        width: auto !important;
+        padding-top: 0 !important;
     }
     .izq {
         width: 100% !important;
@@ -73,7 +76,7 @@ body {
     }
 
 
-
+// FOOTER
 #footer {
     width: 100%;
     color: white;

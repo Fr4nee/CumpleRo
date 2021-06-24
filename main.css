@@ -10888,7 +10888,8 @@ body {
 @media (max-width: 800px) {
   .main {
     flex-direction: column;
-    width: 100% !important;
+    width: auto !important;
+    padding-top: 0 !important;
   }
 
   .izq {

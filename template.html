@@ -11,27 +11,29 @@
     <!--HEADER-->
     <header>
         <nav class=" pb-2 tempBGHead">
-            <h1 class="display-1 px-5">Persona o Grupo</h1>     
+            <h1 class="display-1 px-5 h1">Persona/Grupo</h1>     
         </nav>
     </header>
 
     <!--MAIN-->
-    <main class=" main ">
-    <!-- VIDEO - COLUMNA IZQUIERDA -->
+    <main class="main">
+        <!-- VIDEO - COLUMNA IZQUIERDA -->
         <div class="col-4 izq">
             <video src="video.mp4" width="100%" height="auto" controls></video>
         </div>
-    <!-- CLAVE - COLUMNA DERECHA -->
+        <!-- CLAVE - COLUMNA DERECHA -->
         <div class="col-4 der">
             <div class="container">
-                <p>
-                    <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Pistaaaaaa</button>
-                </p>
-                <div class="collapse" id="collapseExample">
-                    <div class="card card-body">Aca va a estar la pista de la palabra clave que proporciona la persona o grupo que corresponda.</div>
+                <!-- PISTA -->
+                <div>
+                    <p>
+                        <button class="btn btn-warning w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Pistaaaaaa</button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">Aca va a estar la pista de la palabra clave que proporciona la persona o grupo que corresponda.</div>
+                    </div>
                 </div>
-
-
+                <!-- CLAVE -->
                 <div class="container" id="bloqueClave">
                     <nav class="navbar mb-3">
                         <div class="container-fluid">
@@ -82,29 +84,24 @@
 
     <!--FOOTER-->
     <footer class="bg-dark pt-3 pb-2 sticky-bottom" id="footer">
-    <div class="container">
-        <div class="row justify-content-around">
-            <div class="col text-center">
-                <h5 class="">Titulo</h5> 
-                <p>Gracias a todos por colaborar y participar en este juego!!!! </p>              
-            </div>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col text-center">
+                    <h5>Titulo</h5> 
+                    <p>Gracias a todos por colaborar y participar en este juego!!!! </p>              
+                </div>
 
-            <div class="col text-center">
-                <h4>Titulo </h4>
-                <img class="roimg" src="ro.jpg">
-                
-            </div>
+                <div class="col text-center">
+                    <h4>Titulo </h4>
+                    <img class="roimg" src="ro.jpg">       
+                </div>
 
-            <div class="col text-center">           
-                <h5>Titulo</h5>
-                
+                <div class="col text-center">           
+                    <h5>Titulo</h5>
+                </div>
             </div>
-
         </div>
-    </div>
     </footer>
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="template.js"></script>
 </body>
