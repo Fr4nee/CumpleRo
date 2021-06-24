@@ -10888,8 +10888,9 @@ body {
 @media (max-width: 800px) {
   .main {
     flex-direction: column;
-    width: auto !important;
-    padding-top: 0 !important;
+    width: 100% !important;
+    padding-top: 2% !important;
+    justify-content: flex-start;
   }
 
   .izq {
@@ -10898,6 +10899,7 @@ body {
 
   .der {
     width: 100% !important;
+    padding-top: 3%;
   }
 
   video {
@@ -10905,13 +10907,19 @@ body {
     padding-right: 5px;
     padding-left: 5px;
   }
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 1 !important;
+  }
 }
 #resultTempCOR {
   position: relative;
 }
 
 #correctTemp {
-  position: fixed;
+  position: absolute;
   width: 100%;
 }
 
@@ -10920,8 +10928,14 @@ body {
 }
 
 #errorTemp {
-  position: fixed;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 0.4;
+  position: absolute;
   width: 100%;
+}
+
+.error {
+  margin-bottom: 7 !important;
 }
 
 #footer {
@@ -10932,4 +10946,33 @@ body {
 .roimg {
   width: 4em;
   border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    width: 100% !important;
+    padding-top: 2% !important;
+    justify-content: flex-start;
+  }
+
+  .izq {
+    width: 100% !important;
+  }
+
+  .der {
+    width: 100% !important;
+    padding-top: 3%;
+  }
+
+  video {
+    width: 100% !important;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  footer {
+    position: sticky;
+    bottom: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

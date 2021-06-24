@@ -10,7 +10,7 @@
 <body class="tempBG">   
     <!--HEADER-->
     <header>
-        <nav class=" pb-2 tempBGHead">
+        <nav class="pb-2 pt-1 tempBGHead">
             <h1 class="display-1 px-5 h1">Persona/Grupo</h1>     
         </nav>
     </header>
@@ -35,7 +35,7 @@
                 </div>
                 <!-- CLAVE -->
                 <div class="container" id="bloqueClave">
-                    <nav class="navbar mb-3">
+                    <nav class="navbar mb-1">
                         <div class="container-fluid">
                             <form class="d-flex w-100">
                                 <input id="form" class="form-control me-3" type="search" placeholder="Clave">
@@ -71,7 +71,7 @@
                         </svg>
 
                         <div id="errorTemp">
-                            <div class="alert alert-danger d-flex align-items-center" role="alert"><svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                            <div class="alert alert-danger d-flex align-items-center error" role="alert"><svg class="bi flex-shrink-0 me-1" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
                                 <div>Error!! Volve a intentar!!!</div>
                             </div>
                             <button type="button" class="btn btn-danger w-100" onclick="return location.reload()" id="boton1">Reintentar</button>
@@ -79,11 +79,12 @@
                     </form> 
 
                 </div> 
+
             </div>
     </main>
 
     <!--FOOTER-->
-    <footer class="bg-dark pt-3 pb-2 sticky-bottom" id="footer">
+    <footer class="bg-dark pt-3 pb-3 absolute-bottom" id="footer">
         <div class="container">
             <div class="row justify-content-around">
                 <div class="col text-center">
