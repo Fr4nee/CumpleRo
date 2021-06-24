@@ -10845,6 +10845,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+html {
+  height: 100% !important;
+}
+
+body {
+  display: flex;
+  height: 100% !important;
+  flex-direction: column;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10865,6 +10875,7 @@ textarea.form-control-lg {
   padding-top: 2em !important;
   display: flex;
   justify-content: space-evenly;
+  height: 100% !important;
 }
 
 .izq {
@@ -10914,8 +10925,6 @@ textarea.form-control-lg {
 }
 
 #footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   color: white;
 }

@@ -1,10 +1,22 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 
+html {
+    height: 100% !important;
+}
+
+body {
+    display: flex;
+    height: 100% !important;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 .tempBG {
     background: url(fondo4.png);
@@ -18,7 +30,8 @@
     padding: 0 !important;
     padding-top: 2em !important;
     display: flex;
-    justify-content: space-evenly;   
+    justify-content: space-evenly; 
+    height: 100% !important;  
 }
 .izq {
     margin-top: 5px;
@@ -69,11 +82,8 @@
 // }
 
 #footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     color: white;
-
 }
 
 .roimg {
