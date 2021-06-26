@@ -67,4 +67,10 @@ img:hover {
 .roimg {
   width: 4em;
   border-radius: 50%;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-image: url(assets/fondo5mediaquery.png);
+  }
 }/*# sourceMappingURL=main.css.map */
