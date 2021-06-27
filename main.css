@@ -21,7 +21,7 @@ body {
 header {
   margin-bottom: 1em;
   padding-bottom: 1.3em;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.659), rgba(0, 0, 0, 0));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.837), rgba(0, 0, 0, 0));
 }
 
 h1 {
@@ -69,9 +69,14 @@ img:hover {
 @media (max-width: 800px) {
   body {
     background-image: url(assets/fondo5mediaquery.png);
+    background-position: center;
+    background-size: cover;
   }
 
-  h1 {
+  .h1 {
     font-size: 2em !important;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 1.5%;
   }
 }/*# sourceMappingURL=main.css.map */
