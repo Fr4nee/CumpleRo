@@ -76,7 +76,7 @@ img:hover  {
 
 @media( max-width: 800px,) {
     body {
-        background-image: url(assets/fondo5mediaquery.png);
+        background-image: url(assets/fondoflowerscel.png);
         background-position: center;
         background-size:cover; 
     }
@@ -85,5 +85,9 @@ img:hover  {
         padding-left: 0em ;
         padding-right: 0em ;
         padding-top: 1.5%;
+    }
+    .txtheader {
+        padding-left: 2.5em !important;
+        padding-right: 2.5em !important;
     }
 }
