@@ -20,3 +20,15 @@ function obtenerEntradaTemp(pass) {
             document.getElementById("errorTemp").style.display="block";
         }
 }
+
+function obtenerEntradaYo(pass) {
+
+    var entry = document.getElementById("form").value; 
+    
+        if (entry == pass) {
+            location.href="yo.html";
+        } else {
+            document.getElementById("resultTempERR").style.display="block";
+            document.getElementById("errorTemp").style.display="block";
+        }
+}
