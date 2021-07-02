@@ -47,10 +47,27 @@ main {
   position: relative;
 }
 
-footer {
+#footer {
   width: 100%;
   height: 15vh;
-  background-color: black;
+  margin-top: 2em;
+  background-color: rgba(0, 0, 0, 0.549);
   position: relative;
+  color: white;
+}
+
+.roimg {
+  width: 4em;
+  border-radius: 50%;
+}
+
+.juego {
+  text-decoration: none;
+  color: white;
+}
+
+.juego:hover {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=yo.css.map */

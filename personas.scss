@@ -64,17 +64,26 @@ body {
 // FOOTER
 #footer {
     width: 100%;
-    color: white;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.549);
 }
     .roimg {
         width: 4em;   
         border-radius: 50%;
+        margin: 1em;
+    }
+    .juego {
+        text-decoration: none;
+        color: white;
+    }
+    .juego:hover {
+        text-decoration: none;
+        color: white;
     }
 
 
 // MEDIA QUERYS - CEL
-
 @media (max-width: 800px,) {
     .main {
         flex-direction: column;
@@ -98,7 +107,7 @@ body {
     #footer {
         position: sticky !important;
         bottom: 0;
-        padding-bottom: 0 !important;
+        padding-bottom: 15px !important;
         z-index: -1;
         font-size: 12px !important;
     }

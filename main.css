@@ -65,11 +65,23 @@ img:hover {
   margin-top: 2em;
   color: white;
   background-color: rgba(0, 0, 0, 0.549);
+  padding: 1em;
 }
 
 .roimg {
   width: 4em;
   border-radius: 50%;
+  margin: 1em;
+}
+
+.juego {
+  text-decoration: none;
+  color: white;
+}
+
+.juego:hover {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 800px) {

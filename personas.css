@@ -10339,6 +10339,7 @@ body {
 
 #footer {
   width: 100%;
+  margin-top: 2em;
   color: white;
   background-color: rgba(0, 0, 0, 0.549);
 }
@@ -10346,6 +10347,17 @@ body {
 .roimg {
   width: 4em;
   border-radius: 50%;
+  margin: 1em;
+}
+
+.juego {
+  text-decoration: none;
+  color: white;
+}
+
+.juego:hover {
+  text-decoration: none;
+  color: white;
 }
 
 @media (max-width: 800px) {
@@ -10371,7 +10383,7 @@ body {
   #footer {
     position: sticky !important;
     bottom: 0;
-    padding-bottom: 0 !important;
+    padding-bottom: 15px !important;
     z-index: -1;
     font-size: 12px !important;
   }
