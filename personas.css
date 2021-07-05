@@ -10287,7 +10287,7 @@ body {
   display: flex;
   height: 100% !important;
   flex-direction: column;
-  background: url(assets/fondo4.png);
+  background-color: black;
 }
 
 .tempBGHead {
@@ -10347,7 +10347,7 @@ body {
 .roimg {
   width: 4em;
   border-radius: 50%;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 .juego {
@@ -10393,5 +10393,9 @@ body {
   #footer {
     display: none;
   }
+}
+
+.bodyRoyMarce {
+  background: url(assets/fondo1.png);
 }
 /*# sourceMappingURL=personas.css.map */
