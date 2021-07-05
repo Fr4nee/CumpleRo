@@ -51,12 +51,15 @@ header {
   height: 13%;
 }
 
-img {
+.img {
   transform: scale(1);
   transition: .3s ease-in-out;
+  height: 200px;
+  width: 400px;
+  object-fit: cover;
 }
 
-img:hover {
+.img:hover {
   transform: scale(1.3);
 }
 
