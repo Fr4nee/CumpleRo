@@ -1,0 +1,142 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// HTML
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100% !important;
+}
+body {
+    display: flex;
+    height: 100% !important;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+// HEADER
+.tempBGHead {
+    background-color: rgba(0, 0, 0, 0.186);
+}
+
+
+// CONTENIDO
+.main  {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 2em !important;
+    display: flex;
+    justify-content: space-evenly; 
+    height: 100% !important;  
+}
+.izq {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.der {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#resultTempCOR {
+    position: relative;
+}
+    #correctTemp {
+        position: absolute;
+        margin: 1px; 
+        width: 100%;
+    }
+#resultTempERR {
+    position: relative;
+}
+    #errorTemp {
+        position: absolute; 
+        margin: 1px;  
+        width: 100%; 
+    }
+        .error {
+            margin-bottom: 7 !important;
+        }
+
+
+// FOOTER
+#footer {
+    width: 100%;
+    margin-top: 2em;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.549);
+}
+    .roimg {
+        width: 4em;   
+        border-radius: 50%;
+        margin: 0.5em;
+    }
+    .juego {
+        text-decoration: none;
+        color: white;
+    }
+    .juego:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+
+// MEDIA QUERYS - CEL
+@media (max-width: 800px,) {
+    .main {
+        flex-direction: column;
+        width: 100% !important;
+        padding-top: 2% !important;      
+        justify-content: flex-start; 
+        height: 100% !important;
+    }
+        .izq {
+            width: 100% !important;
+        }
+        .der {
+            width: 100% !important;
+            padding-top: 3%;
+        }
+        video {
+            width: 100% !important;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+    #footer {
+        position: sticky !important;
+        bottom: 0;
+        padding-bottom: 15px !important;
+        z-index: -1;
+        font-size: 12px !important;
+    }
+}
+@media (max-height: 600px,) {
+    #footer {
+        display: none;
+    }
+}
+
+// FONDOS
+
+// Roymarce 
+.bodyRoyMarce {
+    background: url(assets/fondo1.png);
+}
+// Nico y Agus 
+.bodynicoagus {
+    background: url(assets/fondo2.png);
+}
+// Dami y Agus 
+.bodydamiagus {
+    background: url(assets/fondo3.png);
+}
+// Flor Feo 
+.bodyflorfeo {
+    background: url(assets/fondo4.png);
+}
+// Cami
+.bodycami {
+    background: url(assets/fondo6.png);
+}
