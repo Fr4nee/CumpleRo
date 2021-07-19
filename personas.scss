@@ -100,10 +100,11 @@ body {
         width: 100% !important;
         padding-top: 2% !important;      
         justify-content: flex-start; 
-        height: calc(100% - 15em)!important;
+        min-height: calc(100vh - 15em)!important;
     }
         .izq {
             width: 100% !important;
+            height: 20em;
         }
         .der {
             width: 100% !important;
@@ -113,12 +114,10 @@ body {
             width: 100% !important;
             padding-right: 5px;
             padding-left: 5px;
+            height: 70%;
         }
     #footer {
-        // position: sticky !important;
         bottom: 0;
-        padding-bottom: 15px !important;
-        z-index: -1;
         font-size: 12px !important;
         height: 15em !important;
     }
@@ -154,4 +153,8 @@ body {
 // Martin San
 .bodymartinsan {
     background: url(assets/fondo7.png);
+}
+// Flor y Ger
+.bodyfloryger {
+    background: url(assets/fondo1.png);
 }
