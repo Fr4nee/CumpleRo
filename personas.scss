@@ -12,14 +12,15 @@ html {
 body {
     display: flex;
     height: 100% !important;
+    width: 100% !important;
     flex-direction: column;
     background-color: black;
 }
 
-
 // HEADER
 .tempBGHead {
     background-color: rgba(0, 0, 0, 0.186);
+    height: 8em !important;
 }
 
 
@@ -30,12 +31,17 @@ body {
     padding-top: 2em !important;
     display: flex;
     justify-content: space-evenly; 
-    height: 100% !important;  
+    min-height: calc(100vh - 23em) !important;  
 }
 .izq {
+    display: flex;
     margin-top: 5px;
     margin-bottom: 5px;
+    flex-direction: column !important;
 }
+    .video {
+        margin: 1px;
+    }
 .der {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -67,6 +73,7 @@ body {
     margin-top: 2em;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.549);
+    height: 15em !important;
 }
     .roimg {
         width: 4em;   
@@ -85,6 +92,9 @@ body {
 
 // MEDIA QUERYS - CEL
 @media (max-width: 800px,) {
+    .tempBGHead {
+        height: 4em !important;
+    }
     .main {
         flex-direction: column;
         width: 100% !important;
@@ -94,9 +104,9 @@ body {
     }
         .izq {
             width: 100% !important;
+            height: 20em;
         }
         .der {
-            width: 100% !important;
             padding-top: 3%;
         }
         video {
@@ -110,16 +120,14 @@ body {
         padding-bottom: 15px !important;
         z-index: -1;
         font-size: 12px !important;
-    }
-}
-@media (max-height: 600px,) {
+
+            height: 70%;
     #footer {
         display: none;
     }
 }
 
 // FONDOS
-
 // Roymarce 
 .bodyRoyMarce {
     background: url(assets/fondo1.png);
@@ -135,4 +143,24 @@ body {
 // Flor Feo 
 .bodyflorfeo {
     background: url(assets/fondo4.png);
+}
+// Cami
+.bodycami {
+    background: url(assets/fondo6.png);
+}
+// Martin San
+.bodymartinsan {
+    background: url(assets/fondo7.png);
+}
+// Flor y Ger
+.bodyfloryger {
+    background: url(assets/fondo1.png);
+} 
+// Claudio y Stella
+.bodyclau {
+    background: url(assets/fondo2.png);
+}
+// Jorge y Claudia
+.bodyjorge {
+    background: url(assets/fondo3.png);
 }
