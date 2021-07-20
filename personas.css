@@ -10286,20 +10286,14 @@ html {
 body {
   display: flex;
   height: 100% !important;
-<<<<<<< HEAD
-=======
   width: 100% !important;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
   flex-direction: column;
   background-color: black;
 }
 
 .tempBGHead {
   background-color: rgba(0, 0, 0, 0.186);
-<<<<<<< HEAD
-=======
   height: 8em !important;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
 }
 
 .main {
@@ -10308,14 +10302,12 @@ body {
   padding-top: 2em !important;
   display: flex;
   justify-content: space-evenly;
-<<<<<<< HEAD
   height: 100% !important;
 }
 
 .izq {
   margin-top: 5px;
   margin-bottom: 5px;
-=======
   min-height: calc(100vh - 23em) !important;
 }
 
@@ -10328,7 +10320,6 @@ body {
 
 .video {
   margin: 1px;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
 }
 
 .der {
@@ -10365,10 +10356,7 @@ body {
   margin-top: 2em;
   color: white;
   background-color: rgba(0, 0, 0, 0.549);
-<<<<<<< HEAD
-=======
   height: 15em !important;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
 }
 
 .roimg {
@@ -10381,36 +10369,25 @@ body {
   text-decoration: none;
   color: white;
 }
-
 .juego:hover {
   text-decoration: none;
   color: white;
 }
 
 @media (max-width: 800px) {
-<<<<<<< HEAD
-=======
   .tempBGHead {
     height: 4em !important;
   }
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
   .main {
     flex-direction: column;
     width: 100% !important;
     padding-top: 2% !important;
     justify-content: flex-start;
-<<<<<<< HEAD
-    height: 100% !important;
-  }
-  .izq {
-    width: 100% !important;
-=======
     min-height: calc(100vh - 16.7em) !important;
   }
   .izq {
     width: 100% !important;
     height: 20em;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
   }
   .der {
     width: 100% !important;
@@ -10420,31 +10397,19 @@ body {
     width: 100% !important;
     padding-right: 5px;
     padding-left: 5px;
-<<<<<<< HEAD
-  }
-  #footer {
-    position: sticky !important;
-    bottom: 0;
-    padding-bottom: 15px !important;
-    z-index: -1;
-    font-size: 12px !important;
-=======
     height: 70%;
   }
   #footer {
     bottom: 0;
     font-size: 12px !important;
     height: 15em !important;
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
   }
 }
-
 @media (max-height: 600px) {
   #footer {
     display: none;
   }
 }
-
 .bodyRoyMarce {
   background: url(assets/fondo1.png);
 }
@@ -10460,8 +10425,6 @@ body {
 .bodyflorfeo {
   background: url(assets/fondo4.png);
 }
-<<<<<<< HEAD
-=======
 
 .bodycami {
   background: url(assets/fondo6.png);
@@ -10482,5 +10445,4 @@ body {
 .bodyjorge {
   background: url(assets/fondo3.png);
 }
->>>>>>> 6c9775731313b691987ea3d0c422cc73c89ece61
 /*# sourceMappingURL=personas.css.map */
