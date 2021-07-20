@@ -100,7 +100,8 @@ body {
         width: 100% !important;
         padding-top: 2% !important;      
         justify-content: flex-start; 
-        min-height: calc(100vh - 15em)!important;
+        min-height: calc(100vh - 16.7em)!important;
+        // min-height: 100vh !important;
     }
         .izq {
             width: 100% !important;
@@ -157,4 +158,12 @@ body {
 // Flor y Ger
 .bodyfloryger {
     background: url(assets/fondo1.png);
+} 
+// Claudio y Stella
+.bodyclau {
+    background: url(assets/fondo2.png);
+}
+// Jorge y Claudia
+.bodyjorge {
+    background: url(assets/fondo3.png);
 }
