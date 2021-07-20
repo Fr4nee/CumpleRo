@@ -10302,12 +10302,6 @@ body {
   padding-top: 2em !important;
   display: flex;
   justify-content: space-evenly;
-  height: 100% !important;
-}
-
-.izq {
-  margin-top: 5px;
-  margin-bottom: 5px;
   min-height: calc(100vh - 23em) !important;
 }
 
@@ -10369,6 +10363,7 @@ body {
   text-decoration: none;
   color: white;
 }
+
 .juego:hover {
   text-decoration: none;
   color: white;
@@ -10405,11 +10400,13 @@ body {
     height: 15em !important;
   }
 }
+
 @media (max-height: 600px) {
   #footer {
     display: none;
   }
 }
+
 .bodyRoyMarce {
   background: url(assets/fondo1.png);
 }
