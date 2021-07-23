@@ -10391,23 +10391,24 @@ body {
     width: 100% !important;
     padding-top: 2% !important;
     justify-content: flex-start;
-    min-height: calc(100vh - 19.5em) !important;
+    min-height: 100vh !important;
   }
   .mainclau {
     flex-direction: column;
     width: 100% !important;
     padding-top: 2% !important;
     justify-content: flex-start;
-    min-height: calc(120vh) !important;
+    min-height: calc(100vh) !important;
   }
   .izq {
     width: 100% !important;
     margin: 1px;
+    height: 10vh;
   }
   .der {
     width: 100% !important;
     padding-top: 3%;
-    height: auto;
+    min-height: 12vh;
   }
   video {
     width: 100% !important;
@@ -10415,10 +10416,9 @@ body {
     padding-left: 5px;
   }
   #footer {
-    bottom: 0;
     font-size: 12px !important;
-    height: 15em !important;
-    position: relative !important;
+    width: 100% !important;
+    height: 6em !important;
   }
 }
 
