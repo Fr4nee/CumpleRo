@@ -33,6 +33,14 @@ body {
     justify-content: space-evenly; 
     min-height: calc(100vh - 23em) !important;  
 }
+.mainclau  {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: 2em !important;
+    display: flex;
+    justify-content: space-evenly; 
+    min-height: calc(100vh) !important;  
+}
 .izq {
     display: flex;
     margin-top: 5px;
@@ -45,6 +53,7 @@ body {
 .der {
     margin-top: 5px;
     margin-bottom: 5px;
+    position: relative;
 }
 #resultTempCOR {
     position: relative;
@@ -58,7 +67,7 @@ body {
     position: relative;
 }
     #errorTemp {
-        position: absolute; 
+        position: relative; 
         margin: 1px;  
         width: 100%; 
     }
@@ -93,34 +102,47 @@ body {
 // MEDIA QUERYS - CEL
 @media (max-width: 800px,) {
     .tempBGHead {
-        height: 4em !important;
+        height: 4.2em !important;
+    }
+    .h1ms {
+        font-size: 1.9em !important;
     }
     .main {
         flex-direction: column;
         width: 100% !important;
         padding-top: 2% !important;      
         justify-content: flex-start; 
-        min-height: calc(100vh - 16.7em)!important;
-        // min-height: 100vh !important;
+        min-height: calc(100vh - 19.5em)!important;
+        // min-height: 80vh !important;
+    }
+
+    .mainclau {
+        flex-direction: column;
+        width: 100% !important;
+        padding-top: 2% !important;      
+        justify-content: flex-start; 
+        min-height: calc(100vh)!important;
     }
         .izq {
             width: 100% !important;
-            height: 20em;
+            margin: 1px;
         }
         .der {
             width: 100% !important;
             padding-top: 3%;
+            height: auto;
         }
         video {
             width: 100% !important;
             padding-right: 5px;
             padding-left: 5px;
-            height: 70%;
+            // height: 70%;
         }
     #footer {
         bottom: 0;
         font-size: 12px !important;
         height: 15em !important;
+        position: relative !important;
     }
 }
 @media (max-height: 600px,) {
