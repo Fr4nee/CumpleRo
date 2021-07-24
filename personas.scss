@@ -31,7 +31,7 @@ body {
     padding-top: 2em !important;
     display: flex;
     justify-content: space-evenly; 
-    min-height: calc(100vh - 23em) !important;  
+    min-height: calc(100vh - 16em) !important;  
 }
 .mainclau  {
     margin: 0 !important;
@@ -82,7 +82,7 @@ body {
     margin-top: 2em;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.549);
-    height: 15em !important;
+    height: 6em !important;
 }
     .roimg {
         width: 4em;   
@@ -102,10 +102,10 @@ body {
 // MEDIA QUERYS - CEL
 @media (max-width: 800px,) {
     .tempBGHead {
-        height: 4.2em !important;
+        height: 4.3em !important;
     }
     .h1ms {
-        font-size: 1.9em !important;
+        font-size: 1.5em !important;
     }
     .main {
         flex-direction: column;
@@ -121,17 +121,17 @@ body {
         width: 100% !important;
         padding-top: 2% !important;      
         justify-content: flex-start; 
-        min-height: 120vh !important;
+        min-height: 130vh !important;
     }
         .izq {
             width: 100% !important;
             margin: 1px;
-            height: 10vh;
+            height: 80vh;
         }
         .der {
             width: 100% !important;
             padding-top: 3%;
-            min-height: 12vh;            
+            height: 50vh;            
         }
         video {
             width: 100% !important;
